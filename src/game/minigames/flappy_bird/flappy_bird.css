@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    text-align: center;
+}
+
+#board{
+    background-image: url("./flappybirdbg.png");
+    margin-top: 10vh;    
+}
+
+.flappy_scores {
+    position: absolute;
+    width: 45vh;
+    height: 60vh;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 4vh;
+  }

@@ -1,0 +1,101 @@
+/* Aspectos generales */
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fondo {
+  background-image: url('./assets/img/fondo.jpg');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px 1px 0 #000,
+                1px 1px 0 #000;
+   font-weight: bold;
+   font-style: italic;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px 1px 0 #000,
+                1px 1px 0 #000;
+   font-weight: bold;
+}
+
+nav {
+  background-image: url('./assets/img/fondo_nav.jpg');
+  background-size: cover;
+}
+
+nav ul li {
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav ul li button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.centro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 20vh);
+}
+
+.active {
+  color: black;
+}
+
+.link {
+  color: white;
+}
+
+/* Landing page */
+
+#pollo{
+  width: 40vh;
+  height: 40vh;
+  animation: rotar 7s linear infinite;
+  user-select: none;
+}
+
+@keyframes rotar {
+   from { transform: rotate(0deg); }
+   to { transform: rotate(360deg); }
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.6rem;
+  }
+}

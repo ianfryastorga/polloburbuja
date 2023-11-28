@@ -1,0 +1,53 @@
+/* Rules */
+
+.carousel .carousel-image {
+    width: auto;
+    height: auto; 
+    object-fit: contain;
+ 
+ }
+ 
+ .carousel {
+    background-image:
+       linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.5));
+    border: solid black; 
+    height:auto; 
+ }
+ 
+ .carousel h1{
+    text-align:center;
+ 
+ }
+ 
+ .carousel p{
+    text-align:left; 
+    padding-left :1rem; 
+    font-weight:bold; 
+    font-size : 3vh; 
+    color:black;
+ 
+ }
+ 
+ 
+ #minigame {
+   font-size: 18px;
+   padding: 0 1rem;
+ 
+ }
+ 
+ /* Rules Responsive */
+ 
+ @media (max-width: 600px) {
+
+   .carousel{
+     height: auto;
+     font-size: 0.5rem;
+   }
+   .carousel p{
+     font-size: 0.8rem;
+   }
+   #minigame{
+     font-size: 0.7rem;
+   }
+ 
+ }

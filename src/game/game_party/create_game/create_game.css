@@ -1,0 +1,58 @@
+/* Create Game */
+.successMsg {
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  border: solid black;
+  border-radius: 5px;
+  color: white;
+  background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+  text-align: center;
+  font-size: auto;
+}
+
+.avatar {
+  width: 25vh;
+  height: 25vh;
+}
+
+.jugador {
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    padding: auto;
+    font-size: auto;
+  }
+  
+  #centro {
+    top: 50%;
+    width: 20vh;
+    height: auto;
+    margin: auto;
+  }
+  
+  #loading{
+    width: 25vh;
+    height: 25vh;
+    animation: rotar 5s linear infinite;
+  }
+  
+  
+  @media (max-width: 600px) {
+    #centro {
+      width: 10vh;
+      font-size: 1.5vh;
+    }
+    #loading{
+      width: 15vh;
+      height: 15vh;
+    }
+    #amongus{
+      width: 15vh;
+      height: 15vh;
+    }
+  }

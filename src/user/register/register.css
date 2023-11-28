@@ -1,0 +1,65 @@
+/* register Game*/
+
+.register_container {
+    position: absolute;
+    width: 60vh;
+    height: auto;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    
+  }
+  .input_register_nombre {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .input_register_apellido {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .input_register_correo {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .input_register_contraseña {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .boton_register {
+    display: block;
+    width: 50%;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    margin: 5%;
+  }
+  
+
+  @media (max-width: 600px) {
+    .register_container{
+      width: auto;
+      height: auto;
+      padding: 3vh;
+    }
+    .input-codigo{
+      width: 90%;
+    }
+    .boton-enviar{
+      width: 70%;
+    }
+    
+  }

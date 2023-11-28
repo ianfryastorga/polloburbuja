@@ -1,0 +1,52 @@
+/* Login Game*/
+
+.login_container {
+    position: absolute;
+    width: 60vh;
+    height: 50vh;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input_login_correo {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .input_login_contraseña {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .boton_login {
+    display: block;
+    width: 50%;
+    border: solid black;
+    background-image:
+    linear-gradient(to top, rgba(69,209,150,0.5), rgba(217,217,217,0.8));
+    margin: 5%;
+  }
+  
+
+  @media (max-width: 600px) {
+    .login_container{
+      width: auto;
+      height: auto;
+      padding: 3vh;
+    }
+    .input-codigo{
+      width: 90%;
+    }
+    .boton-enviar{
+      width: 70%;
+    }
+    
+  }
