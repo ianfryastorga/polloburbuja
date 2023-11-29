@@ -7,7 +7,7 @@ import './rules.css'
 function Rules() {
   return (
     <Layout>
-      <Carousel showThumbs={false} showStatus={false} showIndicators={false} width='60vw'>
+      <Carousel showThumbs={false} showStatus={true} showIndicators={false} width='60vw'>
         <div>
           <h1>Inicio de Partida</h1>
           <p>• La partida comienza con 4 jugadores fijos, sin posibilidad de cambios.</p>
